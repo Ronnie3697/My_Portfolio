@@ -152,6 +152,37 @@ h2:after {
   margin-top: 50px;
 }
 
+.my-projects {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.my-projects li {
+  padding: 50px;
+}
+
+.btn {
+  background-color: #e67e22;
+  color: white;
+  padding: 30px;
+  border-radius: 35px;
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: background-color 0.5s;
+  word-wrap: break-word;
+}
+
+.btn:hover {
+  background-color: #d35400;
+}
+
+@media screen and (max-width: 1350px) {
+  .my-projects {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .paragraph {
     font-size: 1.1em;
