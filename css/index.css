@@ -217,17 +217,25 @@ h2:after {
   transition: color 0.3s ease-in-out;
 }
 
-.logo-footer:hover {
-  color: rgba(255, 255, 255, 0.6);
-}
-
 .logo-footer-svg {
   width: 2em;
   height: auto;
 }
 
-.logo-footer-svg:hover {
-  color: rgba(255, 255, 255, 0.6);
+.instagram:hover {
+  color: #c32aa3;
+}
+.linkedin:hover {
+  color: #0a66c2;
+}
+.facebook:hover {
+  color: #1877f2;
+}
+.codepen:hover {
+  color: white;
+}
+.github:hover {
+  color: #fafafa;
 }
 
 @media screen and (max-width: 1350px) {
