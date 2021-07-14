@@ -209,7 +209,25 @@ h2:after {
 }
 
 .btn-footer:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-footer {
+  font-size: 2em;
+  transition: color 0.3s ease-in-out;
+}
+
+.logo-footer:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-footer-svg {
+  width: 2em;
+  height: auto;
+}
+
+.logo-footer-svg:hover {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (max-width: 1350px) {
@@ -243,6 +261,10 @@ h2:after {
 
   .footer-list li {
     margin: 25px 0;
+  }
+
+  .logo-footer {
+    font-size: 3em;
   }
 }
 
