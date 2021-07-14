@@ -54,7 +54,7 @@ h2:after {
 .container {
   margin: 70px auto 70px auto;
   padding: 0 10%;
-  max-width: 1400px;
+  max-width: 1800px;
   text-align: center;
 }
 
@@ -108,7 +108,7 @@ h2:after {
 
 .main-nav {
   max-width: 1000px;
-  margin: 20px auto 10px auto;
+  margin: 20px auto 10px 10%;
   padding-right: 50px;
   text-decoration: none;
 }
