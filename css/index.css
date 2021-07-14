@@ -22,7 +22,6 @@ li {
 }
 
 h2 {
-  margin-top: 70px;
   letter-spacing: 5px;
   font-size: 2em;
   font-style: italic;
@@ -52,16 +51,16 @@ h2:after {
   padding-bottom: 40px;
 }
 
-section {
+.container {
   margin: 70px auto 70px auto;
-  padding: 0 100px;
+  padding: 0 10%;
   max-width: 1400px;
   text-align: center;
 }
 
 .main-header {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: url(img/header-background.jpeg);
+  background-image: url(../img/header.jpeg);
   background-blend-mode: multiply;
   background-size: cover;
   background-attachment: fixed;
@@ -76,7 +75,7 @@ section {
   padding: 10px 10px;
   border-radius: 0;
   height: auto;
-  width: 200px;
+  width: auto;
   text-align: center;
   transition: all 0.5s ease-in-out;
 }
@@ -84,6 +83,7 @@ section {
 .circle p {
   color: white;
   font-weight: 400;
+  word-wrap: break-word;
 }
 
 .hover-nav:hover .circle {
@@ -107,7 +107,7 @@ section {
 }
 
 .main-nav {
-  max-width: 1400px;
+  max-width: 1000px;
   margin: 20px auto 10px auto;
   padding-right: 50px;
   text-decoration: none;
@@ -129,6 +129,7 @@ section {
   padding: 5px 20px 5px 20px;
   transition: all 0.5s ease-in-out;
   font-weight: 700;
+  word-wrap: break-word;
 }
 
 .nav-el:hover {
@@ -149,4 +150,23 @@ section {
 
 .second-paragraph {
   margin-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .paragraph {
+    font-size: 1.1em;
+    letter-spacing: none;
+    line-height: 1.5;
+  }
+  .container {
+    padding: 0 5%;
+  }
+  .my-name {
+    font-size: 3em;
+    padding-left: 5%;
+  }
+
+  .main-header {
+    background-size: 100% 100%;
+  }
 }
