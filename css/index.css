@@ -126,7 +126,7 @@ h2:after {
 
 .nav-el {
   color: #777;
-  padding: 5px 20px 5px 20px;
+  padding: 5px 15px 5px 15px;
   transition: all 0.5s ease-in-out;
   font-weight: 700;
   word-wrap: break-word;
@@ -177,6 +177,41 @@ h2:after {
   background-color: #d35400;
 }
 
+.footer {
+  background-color: #333;
+  color: #888;
+  padding: 40px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-list li {
+  margin: 0 10px 20px 10px;
+}
+
+.name-copyright {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name-copyright div {
+  padding: 5px 0;
+  margin-top: 10px;
+}
+
+.btn-footer {
+  transition: color 0.3s ease-in-out;
+}
+
+.btn-footer:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 @media screen and (max-width: 1350px) {
   .my-projects {
     flex-direction: column;
@@ -199,5 +234,27 @@ h2:after {
 
   .main-header {
     background-size: 100% 100%;
+  }
+
+  .footer-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-list li {
+    margin: 25px 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .nav-el {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .btn {
+    font-size: 1.2em;
+    padding: 25px;
   }
 }
