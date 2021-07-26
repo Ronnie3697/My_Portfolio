@@ -155,12 +155,13 @@ h2:after {
 .my-projects {
   display: flex;
   padding-top: 50px;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .my-projects li {
   padding: 50px;
 }
+/*
 
 .btn {
   background-color: #e67e22;
@@ -172,9 +173,22 @@ h2:after {
   transition: background-color 0.5s;
   word-wrap: break-word;
 }
+*/
 
-.btn:hover {
+.btn-800px {
+  background-color: #e67e22;
+  color: white;
+  padding: 30px;
+  border-radius: 35px;
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: background-color 0.5s;
+  word-wrap: break-word;
+}
+
+.btn-800px:hover {
   background-color: #d35400;
+  cursor: pointer;
 }
 
 .footer {
@@ -260,15 +274,6 @@ h2:after {
 
   .main-header {
     background-size: 100% 100%;
-  }
-
-  .btn {
-    color: red;
-  }
-
-  .my-projects li {
-    background-color: yellow;
-    flex: 1;
   }
 
   .footer-list {
