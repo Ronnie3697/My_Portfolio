@@ -262,6 +262,15 @@ h2:after {
     background-size: 100% 100%;
   }
 
+  .btn {
+    color: red;
+  }
+
+  .my-projects li {
+    background-color: yellow;
+    flex: 1;
+  }
+
   .footer-list {
     flex-direction: column;
     align-items: center;
