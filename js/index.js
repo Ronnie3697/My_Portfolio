@@ -15,5 +15,13 @@ hamburger.addEventListener("click", function (e) {
 const nav = document.querySelector(".main-nav");
 
 window.addEventListener("scroll", function () {
-  nav.classList.toggle("fixed", window.scrollY > 700);
+  nav.classList.toggle("fixed", window.scrollY > 670);
+});
+
+const anchorsNav = document.querySelectorAll(".hover-nav");
+
+anchorsNav.forEach((anchor) => {
+  anchor.addEventListener("click", function () {
+    navUL.classList.toggle("show");
+  });
 });

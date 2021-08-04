@@ -108,9 +108,8 @@ h2:after {
 }
 
 .main-nav {
-  /*max-width: 1000px;*/
   margin: 20px auto 10px 10%;
-  padding-right: 50px;
+  padding-right: 5%;
   text-decoration: none;
   display: flex;
 
@@ -364,8 +363,10 @@ h2:after {
   .main-nav ul.show {
     display: flex;
 
+     }
+
+  .main-nav.fixed ul.show {
     background-color: rgba(255, 255, 255, 0.9);
-  }
 }
 
 @media screen and (max-width: 750px) {
