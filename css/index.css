@@ -353,6 +353,7 @@ h2:after {
 
   .main-nav.fixed {
     background-color: transparent;
+    padding-left: 20px;
   }
   .main-nav ul {
     display: none;
@@ -362,6 +363,7 @@ h2:after {
 
   .main-nav ul.show {
     display: flex;
+
     background-color: rgba(255, 255, 255, 0.9);
   }
 }

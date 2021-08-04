@@ -15,5 +15,5 @@ hamburger.addEventListener("click", function (e) {
 const nav = document.querySelector(".main-nav");
 
 window.addEventListener("scroll", function () {
-  nav.classList.toggle("fixed", window.scrollY > 0);
+  nav.classList.toggle("fixed", window.scrollY > 700);
 });
