@@ -111,12 +111,14 @@ h2:after {
   margin: 20px auto 10px 10%;
   padding-right: 50px;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 
 .main-nav ul {
   margin-top: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
 }
 
@@ -124,8 +126,21 @@ h2:after {
   padding-top: 15px;
 }
 
+.hamburger {
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
 .nav-el {
-  color: #777;
+  color: rgb(187, 187, 187);
   padding: 5px 15px 5px 15px;
   transition: all 0.5s ease-in-out;
   font-weight: 700;
@@ -292,6 +307,14 @@ h2:after {
   .logo-footer-svg {
     width: 3em;
     height: auto;
+  }
+  .hamburger {
+    display: inline-block;
+    font-size: 3em;
+    color: rgb(187, 187, 187);
+  }
+  .main-nav ul {
+    display: none;
   }
 }
 
