@@ -65,7 +65,8 @@ h2:after {
   background-size: cover;
   background-attachment: fixed;
   width: 100vw;
-  height: 600px;
+  height: 700px;
+
   position: relative;
 }
 
