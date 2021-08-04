@@ -112,7 +112,8 @@ h2:after {
   padding-right: 50px;
   text-decoration: none;
   display: flex;
-  justify-content: center;
+
+  flex-wrap: wrap;
 }
 
 .main-nav ul {
@@ -321,7 +322,7 @@ h2:after {
   .hamburger {
     display: block;
     font-size: 3em;
-    width: 50px;
+
     color: rgb(187, 187, 187);
   }
 
@@ -330,6 +331,12 @@ h2:after {
   }
   .main-nav ul {
     display: none;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .main-nav ul.show {
+    display: flex;
   }
 }
 
