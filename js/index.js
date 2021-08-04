@@ -11,3 +11,9 @@ const navUL = document.querySelector(".navUL");
 hamburger.addEventListener("click", function (e) {
   navUL.classList.toggle("show");
 });
+
+const nav = document.querySelector(".main-nav");
+
+window.addEventListener("scroll", function () {
+  nav.classList.toggle("fixed", window.scrollY > 0);
+});
