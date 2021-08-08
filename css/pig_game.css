@@ -202,3 +202,35 @@ main {
 .hidden {
   display: none;
 }
+
+@media screen and (max-width: 800px) {
+  .name {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    width: 50rem;
+  }
+
+  .player {
+    padding: 3rem;
+  }
+
+  .name {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+
+  .btn--roll {
+    top: 29.3rem;
+  }
+  .btn--hold {
+    top: 36.1rem;
+  }
+
+  .current {
+    width: 12rem;
+  }
+}
