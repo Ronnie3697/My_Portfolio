@@ -138,9 +138,3 @@ h1 {
     margin-bottom: 3rem;
   }
 }
-
-@media screen and (max-height: 10000px) {
-  body {
-    background-color: yellow;
-  }
-}
