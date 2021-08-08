@@ -11,12 +11,37 @@ html {
   box-sizing: border-box;
 }
 
-header {
+.annoucment {
   position: absolute;
-  top: 10%;
-  color: white;
-  font-size: 1.5em;
+  margin: 50% auto;
+  background-color: rgb(220, 218, 218);
+  padding: 50px 30px;
+  border-radius: 15px;
+  font-size: 2em;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+}
+
+.annoucment button {
+  margin-top: 30px;
+  width: 80px;
+  font-size: 1.5em;
+  border: none;
+  background-color: rgb(31, 248, 31);
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.annoucment button:hover {
+  background-color: rgb(6, 179, 6);
+}
+
+.hidden {
+  display: none;
 }
 
 body {

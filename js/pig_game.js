@@ -1,5 +1,10 @@
 "use strict";
 
+// Annoucment about the HTML, CSS and the game rules
+const btnOK = document.querySelector(".btnOK").addEventListener("click", () => {
+  document.querySelector(".annoucment").classList.add("hidden");
+});
+
 // Selecting elements
 const player0El = document.querySelector(".player--0");
 const player1El = document.querySelector(".player--1");
