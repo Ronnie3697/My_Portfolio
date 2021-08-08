@@ -78,9 +78,7 @@ h1 {
 .btw {
   position: absolute;
   text-align: center;
-
   top: 70%;
-
   font-size: 1.5em;
 }
 
@@ -138,5 +136,11 @@ h1 {
     text-align: center;
     display: block;
     margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-height: 10000px) {
+  body {
+    background-color: yellow;
   }
 }

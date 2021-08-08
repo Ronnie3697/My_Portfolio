@@ -12,13 +12,16 @@ const displayMessage = function (messageClass) {
   document.querySelector(".message").textContent = messageClass;
 };
 
-document.querySelector(".check").addEventListener("click", function () {
+const theCheckButton = function () {
   const guess = Number(document.querySelector(".guess").value);
 
   // When there is now input
   if (!guess) {
     displayMessage("NO number!");
   }
+
+  // When the input is below 1 or above 20
+  else if (guess < 1 || guess > 20) alert("Choose a number between 1 and 20!");
   // When the player wins
   else if (guess === secretNumber) {
     displayMessage("Correct number");
@@ -46,6 +49,22 @@ document.querySelector(".check").addEventListener("click", function () {
 
       document.querySelector(".score").textContent = 0;
     }
+  }
+};
+
+const checkBtn = document.querySelector(".check");
+const inputNumber = document.querySelector(".guess");
+// When pressed the key Check!
+
+checkBtn.addEventListener("click", function () {
+  theCheckButton();
+});
+
+// When pressd the Enter key to trigger Check!
+
+window.addEventListener("keyup", function (e) {
+  if (e.key === "Enter") {
+    theCheckButton();
   }
 });
 
