@@ -297,6 +297,7 @@ h2:after {
 
   .my-projects li {
     margin-top: 30px;
+    
   }
 
   
@@ -333,6 +334,7 @@ h2:after {
 
   .footer-list li {
     margin: 25px 0;
+    
   }
 
   .logo-footer {
@@ -384,8 +386,13 @@ h2:after {
 }
 
 @media screen and (max-width: 550px) {
-  .btn {
-    font-size: 1.2em;
-    padding: 25px;
+  .my-projects li {
+    font-size: 1em;
+    width: 80%;
+    margin: 10px auto;
+    padding: 30px;
+    
   }
+  
+  
 }
