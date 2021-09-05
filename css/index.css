@@ -182,10 +182,12 @@ h2:after {
   display: flex;
   padding-top: 50px;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .my-projects li {
   padding: 50px;
+  margin-top: 20px;
 }
 .my-projects li a {
   color: white;
@@ -220,6 +222,10 @@ h2:after {
 .btn-800px:hover {
   background-color: #d35400;
   cursor: pointer;
+}
+
+.vue-logo {
+  width: 30px;
 }
 
 .footer {
